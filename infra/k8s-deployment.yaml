@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: atlan-observability
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: atlan-observability
+  template:
+    metadata:
+      labels:
+        app: atlan-observability
+    spec:
+      containers:
+        - name: logs-service
+          image: your-repo/logs-service:latest
+          ports:
+            - containerPort: 8080
