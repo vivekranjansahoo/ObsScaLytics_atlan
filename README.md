@@ -67,6 +67,11 @@ Atlan Observability is a comprehensive monitoring and debugging solution designe
 }
 
 ```
+## Architecture
+[architecture.md](architecture.md)
+
+## Observability-guide
+[observability-guide.md](observability-guide.md)
 
 ## Deployment
 ```sh
