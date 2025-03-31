@@ -26,7 +26,7 @@ Atlan Observability is a comprehensive monitoring and debugging solution designe
  ┣ 📜 README.md            # Full documentation with diagrams & use cases
  ┣ 📜 architecture.md       # Deep dive into system design
  ┣ 📜 observability-guide.md # Explanation of OpenTelemetry integration
- ┗ 📜 CONTRIBUTING.md      # Guidelines for extending the project
+
 ```
 
 ## API Example
@@ -86,8 +86,6 @@ $ npm test
 $ npm run test:integration (Sample)
 ```
 
-## Contribution
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to contribute.
 
 ## License
 This project is licensed under the MIT License.
