@@ -68,7 +68,23 @@ Atlan Observability is a comprehensive monitoring and debugging solution designe
 
 ```
 ## Architecture
-[architecture.md](architecture.md)
+[architecture.md](architecture.md)<br>
+## Components Involved
+```
+API Gateway – Traffic routing & request logging.
+
+Microservices – Backend services handling API requests.
+
+Log Processor (Fluent Bit) – Collects & sends logs to Loki / ELK.
+
+Metrics Collector (Prometheus) – Stores time-series performance data.
+
+Tracing (Jaeger / OpenTelemetry) – Tracks request flows.
+
+Alerting System (Kafka + Grafana) – Sends alerts for anomalies.
+
+Storage (AWS S3, Elasticsearch, PostgreSQL) – Long-term storage.
+```
 
 ## Observability-guide
 [observability-guide.md](observability-guide.md)
